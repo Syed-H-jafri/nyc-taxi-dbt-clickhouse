@@ -114,6 +114,12 @@ SELECT
 FROM raw.trips
 GROUP BY payment_type;
 ```
+Results:
+- 💵 Cash trips: 617,650 (avg fare $13.59)
+- 💳 Credit trips: 378,143 (avg fare $12.55)
+- 🆓 No charge: 3,573 trips
+- ⚠️ Disputed: 1,294 trips
+
 
 ## Key Learnings
 - Always analyze data BEFORE creating table!
