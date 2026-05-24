@@ -8,8 +8,6 @@ A complete data engineering pipeline using:
 - 📊 Power BI (dashboards)
 - 🤖 AI layer (Text-to-SQL + RAG)
 
-## 📅 My 14 Day Journey
-
 ### ✅ Day 1 — Docker + ClickHouse Complete!
 - Installed Docker Desktop
 - Pulled ClickHouse image into Docker
@@ -19,7 +17,7 @@ A complete data engineering pipeline using:
 - Ran first analytical SQL queries
 - Discovered real business insights!
 
-### ⏳ Coming Next
+### ⏳ My 14 Day Journey
 - Day 1 — Docker + ClickHouse Complete!
 - Day 2: Install dbt + connect to ClickHouse
 - Day 3: Build staging models
