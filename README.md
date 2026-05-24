@@ -19,14 +19,8 @@ A complete data engineering pipeline using:
 - Ran first analytical SQL queries
 - Discovered real business insights!
 
-### 💡 What I Learned Today
-- Docker containers explained
-- Why columnar databases are fast
-- Row vs Columnar databases
-- Real world data is always messy!
-- Cash was king in NYC 2015! 🚕
-
 ### ⏳ Coming Next
+- Day 1 — Docker + ClickHouse Complete!
 - Day 2: Install dbt + connect to ClickHouse
 - Day 3: Build staging models
 - Day 4: Sources and tests
