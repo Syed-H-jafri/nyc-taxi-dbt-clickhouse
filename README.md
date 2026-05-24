@@ -44,17 +44,3 @@ A complete data engineering pipeline using:
 | Power BI | Dashboard and visualization |
 | Python | AI and RAG layer |
 
-## 📊 Day 1 Results
-```sql
-SELECT 
-    payment_type,
-    count() AS total_trips,
-    avg(fare_amount) AS avg_fare
-FROM raw.trips
-GROUP BY payment_type;
-```
-Results:
-- 💵 Cash trips: 617,650 (avg fare $13.59)
-- 💳 Credit trips: 378,143 (avg fare $12.55)
-- 🆓 No charge: 3,573 trips
-- ⚠️ Disputed: 1,294 trips
