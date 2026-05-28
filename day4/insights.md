@@ -4,6 +4,7 @@
 Star schema is a database design where:
 → Fact table sits in CENTER
 → Dimension tables surround it like STAR points
+-
      dim_payment
           ⭐
           |
