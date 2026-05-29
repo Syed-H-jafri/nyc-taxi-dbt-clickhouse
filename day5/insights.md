@@ -1,8 +1,3 @@
-Day 5 Insights ONLY! 📝
-
-Create day5/insights.md
-markdown# Day 5 Insights — fct_trips Fact Table
-
 ## 🎯 What is a Fact Table?
 Fact table is the CENTER of star schema!
 It stores WHAT HAPPENED:
