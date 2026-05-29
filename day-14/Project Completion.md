@@ -22,25 +22,35 @@ Text-to-SQL: 4/5 correct (80%)
 RAG:         5/5 correct (100%)
 
 ### Question by Question Results:
+
 [1] What is average fare?
 Routing: DATA ✅ Answer: $13.05 ✅
+
 [2] How many total trips?
 Routing: DATA ✅ Answer: 993,708 ✅
+
 [3] What is total revenue?
 Routing: DATA ✅ Answer: $16M ✅
+
 [4] Most popular payment type?
 Routing: DATA ✅ Answer: Error ❌
 (SQL query too complex!)
+
 [5] Average trip duration?
 Routing: DATA ✅ Answer: 15.23 ✅
+
 [6] How are fares calculated?
 Routing: KNOWLEDGE ✅ Answer: Correct ✅
+
 [7] Why tips higher for cards?
 Routing: KNOWLEDGE ✅ Answer: Correct ✅
+
 [8] What time busiest?
 Routing: KNOWLEDGE ✅ Answer: 9 PM ✅
+
 [9] What are five boroughs?
 Routing: KNOWLEDGE ✅ Answer: Manhattan ✅
+
 [10] Cash payment percentage?
 Routing: DATA ❌ Answer: Correct ✅
 (Wrong routing but correct answer!)
