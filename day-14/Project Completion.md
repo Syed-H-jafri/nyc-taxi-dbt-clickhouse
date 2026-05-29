@@ -169,111 +169,194 @@ Improvement area:
 ---
 
 ## 📊 Real Business Insights Discovered:
+
 💰 Total Revenue: $16,072,116
+
 🚕 Total Trips: 993,708
+
 ⏱️ Average Duration: 15.23 minutes
+
 📍 Average Distance: 3.80 miles
+
 💵 Average Fare: $13.05
 
 Payment Analysis:
 ─────────────────
+
 Cash (CSH):    615,250 trips (62%) avg $13.51
+
 Credit (CRE):  374,840 trips (38%) avg $12.28
+
 No charge:       2,618 trips (0.3%)
+
 Dispute:         1,000 trips (0.1%)
 
 Time Analysis:
+
 ──────────────
 🌆 Busiest: 9 PM = 61,000 trips!
+
 😴 Quietest: 5 AM = 11,000 trips
+
 Tip Analysis:
 ─────────────
+
 💳 Credit card avg tip = $2.71
+
 💵 Cash tips not recorded in system
 
 ---
 
 ## 🛠️ Complete Tech Stack:
 Infrastructure:
+
 ───────────────
 🐳 Docker Desktop
+
 🗄️ ClickHouse (columnar database)
+
 Data Engineering:
+
 ──────────────────
+
 🔧 dbt-core 1.11.11
+
 🔌 dbt-clickhouse 1.10.0
+
 ⭐ Star Schema (fact + dimensions)
+
 ✅ 18 automated data tests
+
 Business Intelligence:
+
 ───────────────────────
+
 📊 Power BI Desktop
+
 🔌 ClickHouse ODBC Driver
+
 📈 3 page interactive dashboard
+
 AI Layer:
+
 ──────────
 🤖 Groq API (llama-3.3-70b-versatile)
+
 🧠 sentence-transformers
+
 (all-MiniLM-L6-v2)
+
 🔍 RAG (Retrieval Augmented Generation)
+
 💬 Text-to-SQL
+
 🚦 Question Router
+
 📈 90% evaluation accuracy
+
 Languages:
+
 ───────────
+
 🐍 Python 3.12.10
+
 📝 SQL (ClickHouse dialect)
+
 📋 YAML (dbt configuration)
 
 ---
 
 ## 📁 Complete File Structure:
 nyc_taxi
+
 ├── models
+
 │   ├── staging
+
 │   │   ├── stg_trips.sql ✅
+
 │   │   └── sources.yml ✅
+
 │   └── marts
+
 │       ├── dim_payment.sql ✅
+
 │       ├── dim_location.sql ✅
+
 │       ├── fct_trips.sql ✅
+
 │       └── schema.yml ✅
+
 ├── text_to_sql.py ✅
+
 ├── documents.py ✅
+
 ├── create_embeddings.py ✅
+
 ├── rag.py ✅
+
 ├── router.py ✅
+
 ├── eval.py ✅
+
 ├── .env ✅ (API key - GitHub!)
+
 ├── .gitignore ✅
+
 └── dbt_project.yml ✅
+
 
 ---
 
 ## 🎓 What Learned:
+
 Concepts:
+
 ──────────
 ✅ Docker and containers
+
 ✅ Columnar vs row databases
+
 ✅ Data warehousing
+
 ✅ ETL vs ELT
+
 ✅ Star schema design
+
 ✅ Data quality testing
+
 ✅ Business intelligence
+
 ✅ Embeddings and vectors
+
 ✅ RAG architecture
+
 ✅ Text-to-SQL
+
 ✅ AI orchestration
+
 ✅ Cloud deployment (next!)
+
 Tools:
+
 ───────
+
 ✅ Docker Desktop
+
 ✅ ClickHouse
+
 ✅ dbt
+
 ✅ Power BI
+
 ✅ Python
+
 ✅ Groq API
+
 ✅ sentence-transformers
+
 ✅ GitHub
+
 ✅ VS Code
 
 ---
