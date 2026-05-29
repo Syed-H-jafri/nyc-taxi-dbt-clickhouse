@@ -181,6 +181,7 @@ Improvement area:
 💵 Average Fare: $13.05
 
 Payment Analysis:
+
 ─────────────────
 
 Cash (CSH):    615,250 trips (62%) avg $13.51
@@ -194,12 +195,15 @@ Dispute:         1,000 trips (0.1%)
 Time Analysis:
 
 ──────────────
+
 🌆 Busiest: 9 PM = 61,000 trips!
 
 😴 Quietest: 5 AM = 11,000 trips
 
 Tip Analysis:
+
 ─────────────
+
 
 💳 Credit card avg tip = $2.71
 
@@ -211,6 +215,7 @@ Tip Analysis:
 Infrastructure:
 
 ───────────────
+
 🐳 Docker Desktop
 
 🗄️ ClickHouse (columnar database)
@@ -240,6 +245,7 @@ Business Intelligence:
 AI Layer:
 
 ──────────
+
 🤖 Groq API (llama-3.3-70b-versatile)
 
 🧠 sentence-transformers
@@ -313,6 +319,7 @@ nyc_taxi
 Concepts:
 
 ──────────
+
 ✅ Docker and containers
 
 ✅ Columnar vs row databases
