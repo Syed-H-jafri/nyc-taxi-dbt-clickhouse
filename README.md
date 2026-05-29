@@ -90,3 +90,25 @@ A complete data engineering pipeline using:
 | Power BI | Dashboard and visualization |
 | Python | AI and RAG layer |
 
+## 📸 Project Screenshots
+
+### 🎯 Executive Dashboard
+![Dashboard](images/dashboard_executive_summary.png)
+
+### 💳 Payment Analysis
+![Payment](images/dashboard_Payment_Analysis.png)
+
+### 🚕 Trip Analysis
+![Trips](images/dashboard_Trip_Analysis.png)
+
+### 🗺️ DAG Diagram
+![DAG](images/DAG%20Diagram.png)
+
+### 🤖 Text-to-SQL Demo
+![SQL](images/text_to_sql_demo.png)
+
+### 🧠 RAG Assistant
+![RAG](images/rag_assistant_demo.png)
+
+### 🏆 Evaluation 90% Score
+![Eval](images/evaluation_90percent.png)
