@@ -56,22 +56,22 @@ Routing: DATA ❌ Answer: Correct ✅
 (Wrong routing but correct answer!)
 
 ## 💡 What 90% Means
-Industry standard = 80-85%
-Our score = 90%!
-ABOVE industry standard! 🏆
-Real world AI systems
-rarely score above 85%!
-We exceeded that! 💪
+-Industry standard = 80-85%
+-Our score = 90%!
+-ABOVE industry standard! 🏆
+-Real world AI systems rarely score above 85%!
 
 ## 🔍 What We Learned from Evaluation
 Strength 1: RAG = Perfect 5/5!
 → All knowledge questions
 answered correctly!
 → Documents were high quality!
+
 Strength 2: Routing = 90%!
 → Router correctly classified
 9 out of 10 questions!
 → Very reliable!
+
 Improvement area:
 → Complex SQL queries fail sometimes
 → Need better SQL error handling
@@ -85,52 +85,85 @@ Improvement area:
 
 ### Data Pipeline:
 ✅ Docker Desktop installed
+
 ✅ ClickHouse running in container
+
 ✅ 1,000,660 raw NYC taxi trips loaded
+
 ✅ 993,708 clean trips after filtering
+
 ✅ dbt project created and connected
+
 
 ### Data Models:
 ✅ stg_trips (staging/cleaning layer)
+
 ✅ dim_payment (4 payment types)
+
 ✅ dim_location (5 NYC boroughs)
+
 ✅ fct_trips (993,708 rows, materialized table)
+
 ✅ Complete star schema! ⭐
 
 ### Data Quality:
 ✅ 18 automated dbt tests
+
 ✅ unique tests
+
 ✅ not_null tests
+
 ✅ accepted_values tests
+
 ✅ relationships tests
+
 ✅ All 18 PASSING! 🏆
 
 ### Documentation:
 ✅ dbt docs generated
+
 ✅ DAG diagram visualized
+
 ✅ All models documented
+
 ✅ All columns described
+
 ✅ GitHub repository updated
 
 ### Dashboard:
 ✅ Power BI Desktop installed
+
 ✅ ClickHouse ODBC driver installed
+
 ✅ Connected to ClickHouse
+
 ✅ Star schema relationships set
+
 ✅ Page 1: Executive Summary
+
 ✅ Page 2: Payment Analysis
+
 ✅ Page 3: Trip Analysis
+
 ✅ Dark professional theme
+
 ✅ Saved as NYC_Taxi_Dashboard.pbix
 
 ### AI Layer:
 ✅ Groq API key obtained (free!)
+
 ✅ text_to_sql.py built
+
 ✅ documents.py created (5 documents)
+
 ✅ create_embeddings.py built
+
 ✅ rag.py built
+
 ✅ router.py built
+
 ✅ eval.py built
+
 ✅ 90% evaluation score!
 
 ---
@@ -141,12 +174,14 @@ Improvement area:
 ⏱️ Average Duration: 15.23 minutes
 📍 Average Distance: 3.80 miles
 💵 Average Fare: $13.05
+
 Payment Analysis:
 ─────────────────
 Cash (CSH):    615,250 trips (62%) avg $13.51
 Credit (CRE):  374,840 trips (38%) avg $12.28
 No charge:       2,618 trips (0.3%)
 Dispute:         1,000 trips (0.1%)
+
 Time Analysis:
 ──────────────
 🌆 Busiest: 9 PM = 61,000 trips!
