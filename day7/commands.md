@@ -1,4 +1,4 @@
-#Day 7 Commands — dbt Docs + DAG
+# Day 7 Commands — dbt Docs + DAG
 
 ## Generate dbt Documentation
 ```powershell
